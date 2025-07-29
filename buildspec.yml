@@ -1,0 +1,14 @@
+version: 0.2
+phases:
+  install:
+     runtime-verisons:
+        nodejs: 16
+     commands:
+        - echo "Installing application"
+        - npm install
+  build:
+     commands:
+        - echo "Build is completed successfully."
+artifacts:
+  files:
+     - '**/*'
